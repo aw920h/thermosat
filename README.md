@@ -36,7 +36,7 @@ This project successfully demonstrates that a globally scalable, low-cost framew
 
 The tool's accuracy was validated by comparing its calculated thermal anomalies against established regulatory limits and findings from existing remote sensing studies. The model consistently demonstrated high fidelity in identifying both significant thermal plumes and near-ambient conditions.
 
-| Site Location & Type | Model Ref Mean (°C) | Model Min $\Delta T$ (°C) | Model Max $\Delta T$ (°C) | Real-World $\Delta T$ Range (°C) | Validation & Analysis |
+| Site Location & Type | Model Ref Mean (°C) | Model Min $\Delta T$ (°C) | Model Max $\Delta T$ (°C) | Actual $\Delta T$ Range (°C) | Validation & Analysis |
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Barauni IOCL Refinery**<br/>*(India, River)* | **17.18** | **-0.93** | **-0.93** | 0 to +5 | **Excellent Correlation:** The model accurately detects a negligible thermal anomaly, aligning with IOCL's zero liquid discharge policy and the high dilution capacity of the Ganges. This validates the tool's precision in confirming compliance. |
 | **Exxon Baton Rouge Refinery**<br/>*(USA, River)* | **12.98** | **-4.71** | **+2.00** | +3 to +5 | **Strong Correlation:** The model quantifies a moderate mixing zone consistent with EPA guidelines. The negative min $\Delta T$ also correctly identifies cooler intake zones or shadows, showcasing the tool's detailed detection capability. |
