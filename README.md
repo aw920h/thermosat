@@ -37,35 +37,35 @@ The tool's accuracy was validated by comparing its calculated thermal anomalies 
 #### 1. Barauni IOCL Refinery, India
 *An example of effective environmental controls and high dilution.*
 
-![Barauni Refinery Map](images/barauni.jpg)
+![Barauni Refinery Map](images/BARAUNI.jpg)
 
 **Analysis:** The tool detects no significant thermal anomaly (`-0.93°C`), visualized as a predominantly green overlay. This confirms the effectiveness of the refinery's cooling ponds and the immense dilution capacity of the Ganges River, showcasing the tool's ability to verify environmental compliance.
 
 #### 2. Exxon Baton Rouge Refinery, USA
 *A classic example of a moderate thermal plume in a major riverway.*
 
-![Exxon Baton Rouge Map](images/exxon.jpg)
+![Exxon Baton Rouge Map](images/EXXON.jpg)
 
 **Analysis:** A distinct thermal plume (`+2.00°C`) is visible at the discharge point, gradually mixing as it moves downstream in the Mississippi River. The detection aligns with typical operational impacts under EPA regulations.
 
 #### 3. Diablo Canyon Nuclear Power Plant, USA
 *A high-intensity anomaly from a "once-through" coastal cooling system.*
 
-![Diablo Canyon NPP Map](images/diablo_canyon.jpg)
+![Diablo Canyon NPP Map](images/DIABLO.jpg)
 
 **Analysis:** The tool identifies an extreme thermal anomaly (`+18.11°C`). Unlike riverine systems, the cold Pacific Ocean provides a stark thermal contrast, and the model powerfully visualizes the massive heat discharge allowed under the plant's NPDES permit.
 
 #### 4. Angra Nuclear Power Plant, Brazil
 *Detection of a thermal plume within a sensitive bay ecosystem.*
 
-![Angra NPP Map](images/angra.jpg)
+![Angra NPP Map](images/ANGRA.jpg)
 
 **Analysis:** The model successfully identifies a clear mixing plume (`+4.49°C`) in Angra Bay. This demonstrates the tool's utility in monitoring potential impacts on ecologically sensitive coastal zones and verifying against local environmental studies.
 
 #### 5. Tianwan Nuclear Power Plant, China
 *Validation against long-term academic remote sensing studies.*
 
-![Tianwan NPP Map](images/tianwan.jpg)
+![Tianwan NPP Map](images/TIANWAN.jpg)
 
 **Analysis:** The detected hotspot (`+7.00°C`) and the corresponding cooling zones (`-6.11°C`) align remarkably well with published multi-year remote sensing research, confirming the tool's accuracy and its potential as a scalable solution for academic and regulatory validation.
 
