@@ -89,7 +89,7 @@ The tool's accuracy was validated by comparing its calculated thermal anomalies 
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/thermo-sat.git
+    git clone https://github.com/aw920h/thermosat.git
     ```
 2.  **Install Dependencies:**
     ```bash
