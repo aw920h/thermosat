@@ -1,6 +1,9 @@
 # **Thermo-Sat: A Global Anomaly Detection Tool for Industrial Thermal Effluents**
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-API-orange?logo=google-earth)![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)![Geemap](https://img.shields.io/badge/Geemap-Library-green)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![Google Earth Engine](https://img.shields.io/badge/Google_Earth_Engine-API-orange?logo=google-earth)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![Geemap](https://img.shields.io/badge/Geemap-Library-green)
 
 ### **Project Overview**
 
@@ -143,3 +146,58 @@ refArea = ee.Geometry.Rectangle(
 ```
 
 **Tip:** Always check the blue "Reference Area" box on the generated map. If it's mostly over land instead of water, your `Ref Mean` will be incorrect. Adjust the `ref_lon` and `ref_lat` coordinates and re-run until the box is correctly positioned over the water.
+
+---
+
+## References
+The development and validation of this tool adhered to the following international standards, regulatory documents, and academic literature. 
+
+### Regulatory Frameworks & Permits
+1. Indian Oil Corporation Limited. (2019). Compliance of Environmental Clearance for BS-IV MS & HSD quality upgradation (Oct'2019-Mar'2020) – Barauni Refinery. IOCL.  
+   [PDF Document](https://iocl.com/Talktous/PDF/Compliance-of-EC-for-BS-IV-MS-HSD-quality-upgradation-Oct-2019-Mar-2020%E2%80%93Barauni-Refinery.pdf)
+
+2. U.S. Environmental Protection Agency. (2011). Application for Renewal of LPDES Permit No. LA0005584 AI No. 2638 – ExxonMobil Baton Rouge Refinery. EPA.  
+   [PDF Document](https://downloads.regulations.gov/EPA-HQ-OW-2018-0618-0330/attachment_2.pdf)
+
+3. Central Coast Regional Water Quality Control Board. (2025). Tentative Order R3-2026-0001 – Diablo Canyon Power Plant NPDES Permit. California State Water Resources Control Board.  
+   [PDF Document](https://www.waterboards.ca.gov/centralcoast/board_decisions/tentative_orders/2025/tentative-dcpp-npdes-permit.pdf)
+
+4. U.S. Nuclear Regulatory Commission. (2024). Diablo Canyon Nuclear Power Plant, Units 1 and 2; Draft Environmental Impact Statement. NRC.  
+   [PDF Document](https://www.nrc.gov/docs/ML2500/ML25008A049.pdf)
+
+### Technical & Engineering Literature
+5. Li, Y., Xue, Y., Guang, J., He, X., Xu, H., She, L., & Fan, C. (2023). Long-term observation of global nuclear power plants thermal plumes using Landsat images and deep learning. *Remote Sensing of Environment*, 295, 113680.  
+   [DOI: 10.1016/j.rse.2023.113680](https://doi.org/10.1016/j.rse.2023.113680)
+
+6. Guimarães, V., de Carvalho, B. B., Creed, J. C., & Karez, C. S. (2024). Impact of a nuclear power plant discharge on the sponge community of a tropical bay (SE Brazil). *Marine Pollution Bulletin*, 199, 115947.  
+   [DOI: 10.1016/j.marpolbul.2023.115947](https://doi.org/10.1016/j.marpolbul.2023.115452) (Note: Reports thermal plumes up to 8°C for Angra NPP.)
+
+7. Teixeira, T. P., Neves, L. M., & Araújo, F. G. (2012). Thermal impact of a nuclear power plant in a coastal area in Southeastern Brazil: Effects of heating and physical structure on benthic cover and fish communities. *Hydrobiologia*, 684, 161-175.  
+   [PDF Document](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/esec-de-tamoios/arquivos/TeixeiraNeves_et_al._2012_Thermal_impact_of_nuclear_power_plant.pdf)
+
+8. Nie, P., Zhu, H., Xu, H., Huang, Y., & Hua, W. (2020). Monitoring of Tianwan Nuclear Power Plant thermal pollution based on remotely sensed Landsat data. *2020 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, 5624-5627.  
+   [DOI: 10.1109/IGARSS39084.2020.9323844](https://doi.org/10.1109/IGARSS39084.2020.9323844)
+
+9. Jiang, X., Zhu, W., Zhang, Y., Xu, Q., & Tian, X. (2024). Changes and factors of thermal discharge from 2013 to 2023: A case study of the Tianwan nuclear power plant. *Ecological Indicators*, 166, 112986.  
+   [DOI: 10.1016/j.ecolind.2024.112986](https://doi.org/10.1016/j.ecolind.2024.112986) (Note: References decade-long studies showing max +8.5°C for Tianwan NPP.)
+
+10. McFeeters, S. K. (1996). The use of the normalized difference water index (NDWI) in the delineation of open water features. *International Journal of Remote Sensing*, 17(7), 1425-1432.  
+   [DOI: 10.1080/01431169608948714](https://doi.org/10.1080/01431169608948714)
+
+11. Kalogirou, V., & Pashiardis, S. (2021). Detecting geothermal anomalies using Landsat 8 thermal infrared remotely sensed data. *International Journal of Applied Earth Observation and Geoinformation*, 96, 102283.  
+   [DOI: 10.1016/j.jag.2020.102283](https://doi.org/10.1016/j.jag.2020.102283) (Note: Methodology for LST-based anomaly detection similar to industrial plumes.)
+
+### Computational & Remote Sensing Resources
+12. Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. *Remote Sensing of Environment*, 202, 18-27.  
+   [DOI: 10.1016/j.rse.2017.06.031](https://doi.org/10.1016/j.rse.2017.06.031)
+
+13. U.S. Geological Survey. (2023). Landsat Collection 2 Level-2 Science Products (Surface Temperature). USGS.  
+   [Landsat Missions](https://www.usgs.gov/landsat-missions/landsat-surface-temperature)
+
+14. Mamgain, S., Gupta, K., Roy, A., Karnatak, H. C., & Singh, R. P. (2023). Long-term thermal anomaly detection and mapping at pixel level using a Google Earth Engine tool. *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences*, XLVIII-M-3-2023, 147-152.  
+   [DOI: 10.5194/isprs-archives-XLVIII-M-3-2023-147-2023](https://doi.org/10.5194/isprs-archives-XLVIII-M-3-2023-147-2023)
+
+### Additional Data Sources
+15. NASA/U.S. Geological Survey. (n.d.). Landsat Program. Retrieved February 4, 2026, from https://landsat.gsfc.nasa.gov/
+
+16. Google Earth Engine. (n.d.). Earth Engine Data Catalog: MODIS Thermal Anomalies/Fire. Retrieved February 4, 2026, from https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MOD14A1
