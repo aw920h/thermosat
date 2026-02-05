@@ -163,14 +163,14 @@ The development and validation of this tool adhered to the following internation
    [PDF Document](https://www.waterboards.ca.gov/centralcoast/board_decisions/tentative_orders/2025/tentative-dcpp-npdes-permit.pdf)
 
 4. U.S. Nuclear Regulatory Commission. (2024). Diablo Canyon Nuclear Power Plant, Units 1 and 2; Draft Environmental Impact Statement. NRC.  
-   [PDF Document](https://www.nrc.gov/docs/ML2500/ML25008A049.pdf)
+   [PDF Document](https://www.nrc.gov/docs/ML2515/ML25156A357.pdf)
 
 ### Technical & Engineering Literature
 5. Li, Y., Xue, Y., Guang, J., He, X., Xu, H., She, L., & Fan, C. (2023). Long-term observation of global nuclear power plants thermal plumes using Landsat images and deep learning. *Remote Sensing of Environment*, 295, 113680.  
    [DOI: 10.1016/j.rse.2023.113680](https://doi.org/10.1016/j.rse.2023.113680)
 
 6. Guimarães, V., de Carvalho, B. B., Creed, J. C., & Karez, C. S. (2024). Impact of a nuclear power plant discharge on the sponge community of a tropical bay (SE Brazil). *Marine Pollution Bulletin*, 199, 115947.  
-   [DOI: 10.1016/j.marpolbul.2023.115947](https://doi.org/10.1016/j.marpolbul.2023.115452) (Note: Reports thermal plumes up to 8°C for Angra NPP.)
+   [DOI: 10.1016/j.marpolbul.2023.115452)](https://doi.org/10.1016/j.marpolbul.2023.115452) (Note: Reports thermal plumes up to 8°C for Angra NPP.)
 
 7. Teixeira, T. P., Neves, L. M., & Araújo, F. G. (2012). Thermal impact of a nuclear power plant in a coastal area in Southeastern Brazil: Effects of heating and physical structure on benthic cover and fish communities. *Hydrobiologia*, 684, 161-175.  
    [PDF Document](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/esec-de-tamoios/arquivos/TeixeiraNeves_et_al._2012_Thermal_impact_of_nuclear_power_plant.pdf)
